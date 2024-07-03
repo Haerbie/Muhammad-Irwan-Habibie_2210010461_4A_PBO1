@@ -229,7 +229,7 @@ public class Genre extends Buku {
             }
 ```
 
-11. **Perulangan** adalah statement kontrol yang digunakan untuk menjalankan blok kode berulang kali. Pada kode ini, digunakan loop `for` untuk meminta input dan menampilkan data.
+11. **Perulangan** adalah statement kontrol yang digunakan untuk menjalankan blok kode berulang kali. Pada kode ini, digunakan loop `for` untuk meminta input untuk menampilkan berapa kali kita memasukkan dan menampilkan data.
 
 ```bash
 for (int i = 0; i < jumlahBuku; i++) {
@@ -273,7 +273,7 @@ System.out.println("5. Lainnya");
 pilihan = Integer.parseInt(scanner.nextLine());
 ```
 
-13. **Array** adalah struktur data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Pada kode ini, `MahasiswaDetail[] mahasiswas = new MahasiswaDetail[2];` adalah contoh penggunaan array.
+13. **Array** adalah struktur data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Pada kode ini, `Genre[] daftarBuku = new Genre[jumlahBuku];` dan `daftarBuku[i] = new Genre(kodeBuku, judul, pengarang, tahunTerbit, genre);` adalah contoh penggunaan array.
 
 ```bash
 Genre[] daftarBuku = new Genre[jumlahBuku];
