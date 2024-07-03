@@ -157,7 +157,7 @@ public class Genre extends Buku {
     }
 ```
 
-10. **Seleksi** adalah statement kontrol yang digunakan untuk membuat keputusan berdasarkan kondisi. Pada kode ini, digunakan seleksi `if else` dalam method `getFakultas` dan seleksi `switch` dalam method `getProdi`.
+10. **Seleksi** adalah statement kontrol yang digunakan untuk membuat keputusan berdasarkan kondisi. Pada kode ini, digunakan seleksi `if` dalam error handling untuk `kodeBuku = scanner.nextLine();`, `String tahunTerbitStr = scanner.nextLine();;` dan `pilihan = Integer.parseInt(scanner.nextLine());` dan seleksi `switch` dalam `switch (pilihan)`.
 
 ```bash
             String kodeBuku = "";
